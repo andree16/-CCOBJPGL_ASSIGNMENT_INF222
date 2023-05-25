@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinkController">
+   <children>
+      <ImageView fitHeight="114.0" fitWidth="114.0" layoutX="62.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Big.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="72.0" layoutX="266.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Coffee.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="116.0" fitWidth="114.0" layoutX="386.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Jungle.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="99.0" fitWidth="114.0" layoutX="315.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Water.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="110.0" layoutY="14.0" text="NOMNOMNOM DRINKS NI ADI">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.33695998787879944" green="0.21870000660419464" blue="0.8100000023841858" opacity="0.7709923386573792" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="78.0" fitWidth="148.0" layoutX="166.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Mountain.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="77.0" layoutY="181.0" mnemonicParsing="false" onAction="#showInfo" text="BIG JUICE" underline="true">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2879999876022339" green="0.3391999900341034" blue="0.9599999785423279" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button fx:id="btn2" layoutX="258.0" layoutY="181.0" mnemonicParsing="false" onAction="#showInfo" text="ICED COFFEE" underline="true">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2879999876022339" green="0.3391999900341034" blue="0.9599999785423279" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button fx:id="btn3" layoutX="398.0" layoutY="188.0" mnemonicParsing="false" onAction="#showInfo" text="JUNGLE JUICE" underline="true">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2879999876022339" green="0.3391999900341034" blue="0.9599999785423279" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button fx:id="btn4" layoutX="132.0" layoutY="266.0" mnemonicParsing="false" onAction="#showInfo" text="MOUNTAIN  DEW" underline="true">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2879999876022339" green="0.3391999900341034" blue="0.9599999785423279" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+      <Button fx:id="btn5" layoutX="338.0" layoutY="340.0" mnemonicParsing="false" onAction="#showInfo" text="WUTER " underline="true">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.2879999876022339" green="0.3391999900341034" blue="0.9599999785423279" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill></Button>
+   </children>
+</AnchorPane>
